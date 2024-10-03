@@ -1,4 +1,4 @@
-/* Header Container */
+
 .header-container {
     margin-top: 10px;
     color: black;
@@ -24,8 +24,13 @@
     text-decoration: none;
   }
   
-  .logo .logo-link:hover {
-    color: #9ca3af;
+  .img {
+
+    display: inline-block;
+    width: 80px;  /* Set the desired width */
+    height: 40px;
+    width: 100%;
+  object-fit: contain;
   }
   
   

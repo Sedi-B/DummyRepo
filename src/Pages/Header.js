@@ -1,6 +1,6 @@
-// import job from '../src/Pictures/job.jpeg'
+import job from '../Pictures/job.jpeg'
 import React, { useState } from 'react';
-import './Header.css'; // Import the CSS file
+import '../PageStyles/Header.css';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -12,8 +12,8 @@ function Header() {
   return (
     <header id="Header" className="header-container">
       <nav className="nav-bar">
-        <div className="logo">
-          <a href="#" className="logo-link">Groups5</a>
+        <div className="logos">
+          <img className="img" src={job}/>
         </div>
         <div className="nav-links desktop-only">
           <a href="#Home" className="nav-item">Home</a>

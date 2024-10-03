@@ -1,6 +1,8 @@
 import './App.css';
-import Home from './Home';
-import Header from './Header';
+import Home from './Pages/Home';
+import Header from './Pages/Header';
+import Footer from './Pages/Footer';
+import Job from './Pages/Job';
 
 function App() {
   return (
@@ -8,7 +10,15 @@ function App() {
       <Header />
       <div className="Content">
         <Home />
+      
       </div>
+      <div className='post'>
+
+      <Job/>
+      <Footer/>
+      </div>
+     
+     
     </div>
   );
 }

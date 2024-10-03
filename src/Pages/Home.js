@@ -1,6 +1,6 @@
 import React from 'react';
-import './Home.css'; 
-import job from '../src/Pictures/job.jpeg'
+import '../PageStyles /Home.css'; 
+import job from '../Pictures/job.jpeg'
 const Home = () => {
   return (
     <div className="home-container">
